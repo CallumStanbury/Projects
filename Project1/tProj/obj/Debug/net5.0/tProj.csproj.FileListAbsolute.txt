@@ -1,0 +1,16 @@
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\tProj.exe
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\tProj.deps.json
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\tProj.runtimeconfig.json
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\tProj.runtimeconfig.dev.json
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\tProj.dll
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\ref\tProj.dll
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\bin\Debug\net5.0\tProj.pdb
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.csproj.AssemblyReference.cache
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.AssemblyInfoInputs.cache
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.AssemblyInfo.cs
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.csproj.CoreCompileInputs.cache
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.dll
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\ref\tProj.dll
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.pdb
+C:\Uni-Software\CS-comp1000\Projects\Project1\tProj\obj\Debug\net5.0\tProj.genruntimeconfig.cache
