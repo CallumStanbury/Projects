@@ -10,8 +10,7 @@ namespace tProj
             int N2;
             int Op1;
             int sum;
-            char rerun = 'y';
-
+            char rerun;
             do
             {
                 Console.WriteLine("Please enter a number");
@@ -50,6 +49,7 @@ namespace tProj
 
                     Console.WriteLine("Invalid Imput");
                 }
+
 
                 Console.WriteLine("Do You Want to Use Again? - Y/N");
                 rerun = Console.ReadLine()[0];
