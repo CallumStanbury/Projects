@@ -8,7 +8,7 @@ namespace tProj
         {
             int N1;
             int N2;
-            int Op1;
+            char Op1;
             int sum;
             char rerun;
 
@@ -16,39 +16,44 @@ namespace tProj
             {
                 Console.WriteLine("Please enter a number");
                 N1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("Please enter an Operator-\n 1. Addition \n 2. Subtraction \n 3. Division \n 4. Multiplication");
-                Op1 = int.Parse(Console.ReadLine());
-                Console.WriteLine("Please enter 2nd number");
-                N2 = int.Parse(Console.ReadLine());
+                Console.WriteLine("Please enter an Operator-\n Enter + for Addition \n Enter - for Subtraction \n Enter / Division \n Enter * for Multiplication \n [WILL ONLY ACCEPT 1st CHARACTER INPUT]");
+                Op1 = Console.ReadLine()[0];
 
-                if (Op1 == 1)
+                if (!Op1.Equals('+') && !Op1.Equals('-') && !Op1.Equals('*') && !Op1.Equals('/'))
                 {
-                    sum = N1 + N2;
-                    Console.WriteLine("Your Answer is- {0}", sum);
+                    Console.WriteLine("Invalid Input");
+
                 }
-
-                if (Op1 == 2)
+                else
                 {
-                    sum = N1 - N2;
-                    Console.WriteLine("Your Answer is- {0}", sum);
-                }
+                    Console.WriteLine("Please enter 2nd number");
+                    N2 = int.Parse(Console.ReadLine());
 
-                if (Op1 == 3)
-                {
-                    sum = N1 / N2;
-                    Console.WriteLine("Your Answer is- {0}", sum);
-                }
 
-                if (Op1 == 4)
-                {
-                    sum = N1 * N2;
-                    Console.WriteLine("Your Answer is- {0}", sum);
-                }
+                    if (Op1 == '+')
+                    {
+                        sum = N1 + N2;
+                        Console.WriteLine("Your Answer is: {0}", sum);
+                    }
 
-                if (Op1 >= 5)
-                {
+                    if (Op1 == '-')
+                    {
+                        sum = N1 - N2;
+                        Console.WriteLine("Your Answer is: {0}", sum);
+                    }
 
-                    Console.WriteLine("Invalid Imput");
+                    if (Op1 == '/')
+                    {
+                        sum = N1 / N2;
+                        Console.WriteLine("Your Answer is: {0}", sum);
+                    }
+
+                    if (Op1 == '*')
+                    {
+                        sum = N1 * N2;
+                        Console.WriteLine("Your Answer is: {0}", sum);
+                    }
+
                 }
 
 
