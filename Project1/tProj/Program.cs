@@ -11,6 +11,7 @@ namespace tProj
             int Op1;
             int sum;
             char rerun;
+
             do
             {
                 Console.WriteLine("Please enter a number");
