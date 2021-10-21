@@ -10,7 +10,7 @@ namespace tProj
             int N2;
             int Op1;
             int sum;
-            char rerun = 'y';
+            char rerun;
 
             do
             {
